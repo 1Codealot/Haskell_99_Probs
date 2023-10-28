@@ -1,2 +1,2 @@
---myLast :: [a] -> a
+myLast :: [a] -> a
 myLast x = x !! (length x - 1) 

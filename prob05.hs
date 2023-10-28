@@ -1,4 +1,5 @@
--- No idea
-
 myReverse :: [a] -> [a]
-myReverse (x:xs) = myReverse xs ++ x
+myReverse x = if length x <= 1 
+    then x
+    else
+        last x : myReverse (init x)

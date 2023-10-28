@@ -1,5 +1,1 @@
---setToOne :: Integer -> Integer
-setToOne i = 1
-
---myLength :: [a] -> Integer
-myLength x = sum ( map setToOne x)
+myLength x = sum ( map (\_ -> 1) x)
